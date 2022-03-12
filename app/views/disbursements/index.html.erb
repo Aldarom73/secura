@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Disbursements</h1>
+
+<div id="disbursements">
+  <% @disbursements.each do |disbursement| %>
+    <%= render disbursement %>
+    <p>
+      <%= link_to "Show this disbursement", disbursement %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New disbursement", new_disbursement_path %>

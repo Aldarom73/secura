@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  merchant_id: one
+  shopper_id: one
+  amount: 9.99
+  created_at: 2022-03-10 20:36:30
+  completed_at: 2022-03-10 20:36:30
+
+two:
+  id: 1
+  merchant_id: two
+  shopper_id: two
+  amount: 9.99
+  created_at: 2022-03-10 20:36:30
+  completed_at: 2022-03-10 20:36:30

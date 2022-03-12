@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  merchant: one
+  amount: 9.99
+  start_at: 2022-03-11 23:55:13
+
+two:
+  id: 1
+  merchant: two
+  amount: 9.99
+  start_at: 2022-03-11 23:55:13
